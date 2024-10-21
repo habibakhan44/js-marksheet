@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marksheet Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Marksheet Generator</h1>
+    
+    <form id="marksheetForm">
+      <label for="studentName">Student Name:</label>
+      <input type="text" id="studentName" placeholder="Enter student name" required>
+
+      <label for="studentID">Student ID:</label>
+      <input type="text" id="studentID" placeholder="Enter student ID" required>
+
+      <label for="subject1">Subject 1:</label>
+      <input type="text" id="subject1" placeholder="Enter name of subject 1" required>
+      <input type="number" id="marks1" placeholder="Enter marks of subject 1" required>
+
+      <label for="subject2">Subject 2:</label>
+      <input type="text" id="subject2" placeholder="Enter name of subject 2" required>
+      <input type="number" id="marks2" placeholder="Enter marks of subject 2" required>
+
+      <label for="subject3">Subject 3:</label>
+      <input type="text" id="subject3" placeholder="Enter name of subject 3" required>
+      <input type="number" id="marks3" placeholder="Enter marks of subject 3" required>
+
+      <button type="button" onclick="generateMarksheet()">Generate Marksheet</button>
+    </form>
+
+    <div id="marksheetOutput"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    text-align: center;
+    width: 100%;
+  }
+  
+ 
+
+  h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+ 
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+  }
+  
+  input {
+    padding: 12px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #2196f3;
+    box-shadow: 0 0 8px rgba(33, 150, 243, 0.3);
+    outline: none;
+  }
+  
+  
+  button {
+    padding: 15px 20px;
+    background: linear-gradient(135deg, #ff6f61, #de6262);
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #ff3d2e, #e64545);
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(0);
+    background: linear-gradient(135deg, #e64545, #de6262);
+  }
+  
+  
+  #marksheetOutput h2 {
+    margin-top: 30px;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  
+  th {
+    background-color: #2196f3;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  
+  strong {
+    color: #2196f3;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 30px;
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 1.6em;
+    }
+  
+    input, button {
+      font-size: 1em;
+    }
+  }
+  
